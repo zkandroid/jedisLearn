@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
 
 /**
  * Redis列表是简单的字符串列表，按照插入顺序排序。
@@ -14,6 +15,7 @@ import redis.clients.jedis.Jedis;
 public class JedisList {
 	
 	public static void main(String []args) {
+		JedisPool  jedisPool = new JedisPool();
 		Jedis jedis = new Jedis("127.0.0.1", 6379);
 		
 		/*
