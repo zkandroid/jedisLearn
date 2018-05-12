@@ -9,4 +9,4 @@
     		<type>jar</type>
     		<scope>compile</scope>
 	</dependency>
-  二，其中再springDateRedis下是对redis的字符串，hash，list，set，sortset的一些简单测试，而redis.properties是对redis的配置文件，当然也可以不用在这里面配置，我这里就没有用，直接在RedisUtil里面配置也可以。
+二，其中再springDateRedis下是对redis的字符串，hash，list，set，sortset的一些简单测试，而redis.properties是对redis的配置文件，当然也可以不用在这里面配置，我这里就没有用，直接在RedisUtil里面配置也可以。
